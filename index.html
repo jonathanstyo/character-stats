@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Stats</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="character-card">
+        <input type="file" id="imageUpload" accept="image/*">
+        <img src="character-image.jpg" alt="Character Image" class="character-image" id="characterImage">
+        <input type="text" id="characterName" placeholder="Enter Character Name">
+        <div class="character-stats">
+            <div class="stat">
+                <label>Strength:</label>
+                <button class="decrease" data-stat="strength">-</button>
+                <div class="stat-bar-container">
+                    <div class="stat-bar" id="strength-bar"></div>
+                </div>
+                <button class="increase" data-stat="strength">+</button>
+            </div>
+            <div class="stat">
+                <label>Intelligence:</label>
+                <button class="decrease" data-stat="intelligence">-</button>
+                <div class="stat-bar-container">
+                    <div class="stat-bar" id="intelligence-bar"></div>
+                </div>
+                <button class="increase" data-stat="intelligence">+</button>
+            </div>
+            <div class="stat">
+                <label>Charisma:</label>
+                <button class="decrease" data-stat="charisma">-</button>
+                <div class="stat-bar-container">
+                    <div class="stat-bar" id="charisma-bar"></div>
+                </div>
+                <button class="increase" data-stat="charisma">+</button>
+            </div>
+            <div class="stat">
+                <label>Luck:</label>
+                <button class="decrease" data-stat="luck">-</button>
+                <div class="stat-bar-container">
+                    <div class="stat-bar" id="luck-bar"></div>
+                </div>
+                <button class="increase" data-stat="luck">+</button>
+            </div>
+            <div class="stat">
+                <label>Willpower:</label>
+                <button class="decrease" data-stat="willpower">-</button>
+                <div class="stat-bar-container">
+                    <div class="stat-bar" id="willpower-bar"></div>
+                </div>
+                <button class="increase" data-stat="willpower">+</button>
+            </div>
+            <div class="stat">
+                <label>Agility:</label>
+                <button class="decrease" data-stat="agility">-</button>
+                <div class="stat-bar-container">
+                    <div class="stat-bar" id="agility-bar"></div>
+                </div>
+                <button class="increase" data-stat="agility">+</button>
+            </div>
+            <div class="stat">
+                <label>Speed:</label>
+                <button class="decrease" data-stat="speed">-</button>
+                <div class="stat-bar-container">
+                    <div class="stat-bar" id="speed-bar"></div>
+                </div>
+                <button class="increase" data-stat="speed">+</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
